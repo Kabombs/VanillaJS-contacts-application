@@ -1,0 +1,88 @@
+body {
+    box-sizing: border-box;
+    background-image: linear-gradient(rgb(61, 243, 115), rgb(121, 255, 44));
+    color: white;
+    background-position: center;
+    background-repeat: repeat-y;
+    height: 1000px;
+}
+.app-header {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+div.add_contacts_container,
+form.add_contacts_container {
+    width: 350px;
+    height: 300px;
+    float: left;
+    background-color: rgb(5, 4, 4);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    justify-content: center;
+    text-align: center;
+    clear: both;
+}
+div.row {
+    width: 100%;
+    margin-bottom: 9px;
+}
+div.search-bar {
+    width: 600px;
+    height: 40px;
+    position: relative;
+    left: 360px;
+    top: 0px;
+    
+}
+input.search-bar-input {
+    background-color: rgba(238, 238, 238, 0.89);
+    position: absolute;
+    top: -5px; left: -5px;
+    width: 106%;
+    height: 110%;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    text-align: end;
+    font-size: 20px;
+}
+label {
+    text-transform: uppercase;
+}
+button {
+    background-color: rgb(0, 0, 0);
+    font-weight: 800;
+    text-transform: uppercase;
+    width: 150px;
+    color: rgb(33, 253, 44);
+    padding: 3px 5px;
+    margin-top: 6px;
+    border: white 1px solid;
+    border-radius: 10px;
+}
+button:hover {
+    transform: scale(1.05);
+}
+button.delete-button {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+.contacts-card {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 230, 0);
+    font-weight: 800;
+    border: black 1px solid;
+    display: inline-block;
+    height: 250px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.display-none-toggle {
+    display: none;
+}
